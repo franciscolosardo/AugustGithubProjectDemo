@@ -5,3 +5,11 @@ types:
   person:
     properties:
       name: string
+      email: string
+
+
+/resource:
+  get:
+    body:
+      application/json:
+        type: person
